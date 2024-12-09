@@ -5,10 +5,6 @@ class Zak:
 		self.prijmeni = prijmeni
 		self.rodne_cislo = rodne_cislo
 		
-	def __eq__(self, other):
-		return self.jmeno == other.jmeno and self.prijmeni == other.prijmeni
-
-
 class Skola:
 	
     def __init__(self):
